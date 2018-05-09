@@ -1,0 +1,3 @@
+To delete a non-empty folder:
+=============================
+rmdir /s <folder-name>
