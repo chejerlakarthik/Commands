@@ -16,6 +16,14 @@ List all databases:
 -------------------
 \list
 
+List all Schemas:
+-----------------
+\dn
+
+List all users:
+---------------
+\du
+
 Delete (drop) a database:
 -------------------------
 drop database <database-name>;
@@ -78,3 +86,11 @@ postgres=# select * from ck.employee;
       3 | Sanjeev
       4 | Archana
 (4 rows)
+
+
+
+Quit:
+-----
+\q
+
+
