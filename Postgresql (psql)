@@ -87,7 +87,12 @@ postgres=# select * from ck.employee;
       4 | Archana
 (4 rows)
 
+Execute sql commands from a .sql file:
+=======================================
 
+psql -U <username> -d <database-name> -a -f "<absolute-filename>" .  (-a is to print all lines in sql file to console)
+
+psql -U karthikchejerla -d employeedb -a -f "employees.sql"
 
 Quit:
 -----
