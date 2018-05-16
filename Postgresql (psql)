@@ -4,6 +4,23 @@ psql <DBNAME> <USERNAME>
 
 More options: psql -h <hostname> -p <port>
 
+Create a database:
+------------------
+create database <database-name>;
+
+Example:
+========
+create database spring_data_demo; (Shortcut => createdb spring_data_demo;)
+
+List all databases:
+-------------------
+\list
+
+Delete (drop) a database:
+-------------------------
+drop database <database-name>;
+
+
 Create Schema:
 -------------
 Create schema <schemaname>;
@@ -24,7 +41,6 @@ postgres=# select nspname from pg_catalog.pg_namespace;
  ck
 (7 rows)
 
-
 Create Table (in a schema):
 ---------------------------
 Create table <tablename> (..columns and constraints..);
@@ -38,7 +54,6 @@ postgres=# select * from ck.employee;
  emp_id | emp_name 
 --------+----------
 (0 rows)
-
 
 
 Insert into table:
