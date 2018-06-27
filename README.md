@@ -1,6 +1,6 @@
 # Fundamental programming concepts
-  Spring framework
-  Servlets
+  Spring framework,
+  Servlets, 
   Hibernate
 
 # Windows-Commands
